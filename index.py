@@ -11,7 +11,7 @@ author: jose reyes
 # No argument given
 if len(sys.argv) < 2:
     print('No directory was given.')
-    print('Usage: python3 search.py <directory>')
+    print('Usage: python3 index.py <directory>')
     quit()
 
 wd = sys.argv[1] # working directory
